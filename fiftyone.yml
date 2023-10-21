@@ -1,0 +1,8 @@
+name: "@brimoor/pdf-loader"
+description: "Load PDFs as images into FiftyOne"
+version: "1.0.0"
+url: "https://github.com/brimoor/pdf-loader"
+fiftyone:
+  version: "*"
+operators:
+  - pdf_loader
