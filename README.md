@@ -3,6 +3,8 @@
 A [FiftyOne plugin](https://docs.voxel51.com/plugins/index.html) for loading
 PDFs as images.
 
+https://github.com/brimoor/pdf-loader/assets/25985824/584bd14f-e076-4b88-89d5-f88190032f93
+
 ## Installation
 
 ```shell
