@@ -7,6 +7,15 @@ https://github.com/brimoor/pdf-loader/assets/25985824/584bd14f-e076-4b88-89d5-f8
 
 ## Installation
 
+If you haven't already,
+[install FiftyOne](https://docs.voxel51.com/getting_started/install.html):
+
+```shell
+pip install fiftyone
+```
+
+Then install the plugin and its dependencies:
+
 ```shell
 fiftyone plugins download https://github.com/brimoor/pdf-loader
 
@@ -16,7 +25,7 @@ pip install pdf2image
 
 ## Usage
 
-1. Launch the App
+1. Launch the App:
 
 ```py
 import fiftyone as fo
@@ -37,6 +46,31 @@ Install the
 plugins to make your documents searchable!
 
 https://github.com/brimoor/pdf-loader/assets/25985824/e18fde7f-eced-41dc-849a-a0e074a20737
+
+1. Install the plugins and their dependencies:
+
+```shell
+fiftyone plugins download https://github.com/jacobmarks/pytesseract-ocr-plugin
+pip install pytesseract
+
+https://github.com/jacobmarks/semantic-document-search-plugin
+pip install qdrant_client
+pip install sentence_transformers
+```
+
+2.  Launch a Qdrant server:
+
+```
+docker run -p "6333:6333" -p "6334:6334" -d qdrant/qdrant
+```
+
+3.  Run the `run_ocr_engine` operator to detect text blocks
+
+4.  Run the `create_semantic_document_index` operator to generate a semantic
+    index for the text blocks
+
+5.  Run the `semantically_search_documents` operator to perform arbitrary
+    searches against the index!
 
 ## Implementation
 
