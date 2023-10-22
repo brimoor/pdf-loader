@@ -29,6 +29,13 @@ session = fo.launch_app(dataset)
 
 3.  Run the `pdf_loader` operator
 
+## What next?
+
+Install the
+[PyTesseract OCR](https://github.com/jacobmarks/pytesseract-ocr-plugin) and
+[Semantic Document Search](https://github.com/jacobmarks/semantic-document-search-plugin)
+plugins to make your documents searchable!
+
 ## Implementation
 
 This plugin is a basically a wrapper around the following code:
