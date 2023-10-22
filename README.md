@@ -36,6 +36,8 @@ Install the
 [Semantic Document Search](https://github.com/jacobmarks/semantic-document-search-plugin)
 plugins to make your documents searchable!
 
+https://github.com/brimoor/pdf-loader/assets/25985824/e18fde7f-eced-41dc-849a-a0e074a20737
+
 ## Implementation
 
 This plugin is a basically a wrapper around the following code:
